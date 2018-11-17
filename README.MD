@@ -1,0 +1,3 @@
+该项目主要测试springboot2的logback的使用，
+1、引入lombok依赖，小工具可以自动生成getter/setter方法，和日志记录对象log
+2、进行日志的记录，包含控制台和文件。ERROR和INFO消息分开目录存放
