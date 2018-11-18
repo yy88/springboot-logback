@@ -109,4 +109,20 @@
         <appender-ref ref="bFile"/>
     </logger>
 
+    <!--多环境配置-->
+    <!-- 开发环境. 如果有多个使用逗号隔开.如dev,test -->
+    <springProfile name="dev">
+        <logger name="com.example.demo" level="DEBUG" additivity="false">
+            <appender-ref ref="console"/>
+        </logger>
+    </springProfile>
+
+    <!-- 生产环境. -->
+    <springProfile name="prod">
+        <logger name="com.example.demo" level="INFO" additivity="false">
+            <appender-ref ref="errorFile"/>
+            <appender-ref ref="infoFile"/>
+        </logger>
+    </springProfile>
+
 </configuration>
