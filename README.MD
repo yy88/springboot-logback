@@ -6,7 +6,9 @@
 
 * 3、设置某一个包或者具体的某一个类的日志打印级别、以及指定特殊存放位置
 
-* 4、多环境配置
+* 4、使用springProfile标签实现多环境配置。
+
+* 5、使用springProperty标签可以直接读取springboot配置环境变量，实现灵活配置。但是一定注意日志配置文件要命名为logback-spring.xml
 
 ## 【说明】<br>
 * 默认情况下，Spring Boot会用Logback来记录日志，并用INFO级别输出到控制台。
