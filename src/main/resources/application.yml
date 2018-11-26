@@ -2,6 +2,6 @@ server:
   port: 9900
 spring:
   profiles:
-    active: prod
+    active: dev
 logging:
   path: D:/log/demo-api
