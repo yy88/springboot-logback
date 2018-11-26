@@ -1,4 +1,4 @@
-#springboot2的logback的使用
+# springboot2的logback的使用
 * 1、引入lombok依赖，小工具使用@Data注解可以自动生成getter/setter方法，
    使用@Slf4j注解可以直接使用日志记录对象log
    
@@ -8,7 +8,7 @@
 
 * 4、多环境配置
 
-##【说明】<br>
+## 【说明】<br>
 * 默认情况下，Spring Boot会用Logback来记录日志，并用INFO级别输出到控制台。
 
 * 自定义日志配置
